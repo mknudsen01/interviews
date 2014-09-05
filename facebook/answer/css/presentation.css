@@ -1,0 +1,58 @@
+/* GLOBAL */
+p {
+    font-family: Helvetica;
+}
+
+.font-important {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.font-default {
+    font-size: 10px;
+    color: #999;
+    font-weight: normal;
+}
+
+/* TIMELINE */
+.timeline-container {
+    width: 10%;
+    height: 720px;
+}
+
+/* EVENT */
+.event-container {
+    width: 600px;
+    height: 720px;
+    padding: 0 10px;
+    background-color: #E6E6E6;
+}
+
+.event-template {
+    display: none;
+}
+
+.event {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    height: 40px;
+}
+
+.event-bar {
+    width: 5px;
+    height: inherit;
+    background-color: #196CE8;
+}
+
+.event-content {
+    padding: 5px 10px;
+}
+
+.event-title {
+    margin: 0;
+    color: #196CE8;
+}
+
+.event-location {
+    margin: 0;
+}
